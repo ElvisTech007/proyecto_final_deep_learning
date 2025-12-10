@@ -1,12 +1,7 @@
 import numpy as np
 import pandas as pd
 from scipy.signal import welch
-# Manejo de versiones de scipy
-try:
-    from scipy.integrate import simpson
-except ImportError:
-    from scipy.integrate import simps as simpson
-
+from scipy.integrate import simps as simpson
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import LeaveOneGroupOut

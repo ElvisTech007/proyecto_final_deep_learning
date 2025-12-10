@@ -1,0 +1,12 @@
+numpy
+pandas
+os
+tensorflow
+keras
+scipy
+sklearn
+matplotlib
+seaborn
+gc
+mne
+mne-icalabel
