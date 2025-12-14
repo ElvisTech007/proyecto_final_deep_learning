@@ -197,7 +197,7 @@ def main():
     plt.ylabel('Realidad')
     plt.xlabel('Predicción')
     plt.savefig('resultado_final_completo.png')
-    print("Gráfica guardada: resultado_final_completo_IMPROVED.png")
+    print("Gráfica guardada: resultado_final_completo.png")
 
 if __name__ == "__main__":
     main()
