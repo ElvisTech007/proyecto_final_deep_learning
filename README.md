@@ -30,8 +30,8 @@ Al finalizar la ejecución del notebook anterior, se generará en el directorio 
 
 ### 3. Entrenamiento de la Red Neuronal (Deep Learning)
 Ejecutar el script:
-* `proyecto_final_completo.py`
-Este es el modelo principal. Realiza la extracción de características espectrales y entrena el Perceptrón Multicapa (MLP) bajo la validación LOSO. Genera las métricas de desempeño y gráficas de confianza.
+* `model.py`
+Este es el modelo principal. Realiza la extracción de características espectrales y entrena el Perceptrón Multicapa (MLP) bajo la validación LOSO. Genera las métricas de desempeño y gráficas de confianza. Para ejecutar el estudio de ablación, se debe ejecutar el script * `model_2.py`
 
 ### 4. Comparación con Modelo Base
 Ejecutar el script:
